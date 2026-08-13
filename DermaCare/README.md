@@ -111,8 +111,6 @@ npm install
 nodemon index.js
 ```
 
-Nodemon automatically restarts the server whenever you save changes.
-
 ### **3. Or start without nodemon**
 ```
 node index.js
