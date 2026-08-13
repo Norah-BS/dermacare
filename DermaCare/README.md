@@ -142,3 +142,11 @@ http://localhost:3000
 - Add role‑based authentication (employee vs user)  
 - Add analytics dashboard  
 
+---
+## Contributors
+
+- Norah Bin Salamah  
+- Sara Almuraibidh
+- Danyah Alsabti 
+- Sitah Alsemmari 
+
