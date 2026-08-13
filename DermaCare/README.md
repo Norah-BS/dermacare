@@ -1,6 +1,6 @@
 # **DermaCare — Dermatology Web Application**
 
-## ** Overview**
+## **Overview**
 DermaCare is a full‑stack dermatology web application designed for **public users** and **clinic employees**.  
 Public users can browse the website, explore services, learn about the clinic, and use the skin‑diagnosis tool.  
 Employees have access to internal pages that allow them to **add, update, and delete appointments**.
@@ -9,7 +9,7 @@ This separation creates a realistic, secure workflow similar to real clinics whe
 
 ---
 
-## ** Purpose**
+## **Purpose**
 DermaCare provides:
 - A clean, user‑friendly interface for visitors  
 - A controlled appointment management system for employees  
@@ -19,7 +19,7 @@ DermaCare provides:
 
 ---
 
-## ** User Roles**
+## **User Roles**
 
 ### **1️ Public Users**
 Public visitors can:
@@ -43,7 +43,7 @@ Authorized staff can:
 
 ---
 
-## ** Features**
+## **Features**
 
 ### **Public Features**
 - Responsive home page  
@@ -63,7 +63,7 @@ Authorized staff can:
 
 ---
 
-## ** Tech Stack**
+## **Tech Stack**
 
 ### **Frontend**
 - HTML  
@@ -80,7 +80,7 @@ Authorized staff can:
 
 ---
 
-## ** Project Structure**
+## **Project Structure**
 
 ```
 DermaCare/
@@ -99,7 +99,7 @@ DermaCare/
 
 ---
 
-## ** How to Run Locally**
+## **How to Run Locally**
 
 ### **1. Install dependencies**
 ```
@@ -123,7 +123,7 @@ http://localhost:3000
 
 ---
 
-## ** Screenshots**
+## **Screenshots**
 
 
 ![Home Page](public/images/home3.png)
@@ -134,7 +134,7 @@ http://localhost:3000
 
 ---
 
-## ** Future Improvements**
+## **Future Improvements**
 - Add patient appointment booking  
 - Add admin dashboard  
 - Add appointment reminders  
