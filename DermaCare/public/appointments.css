@@ -1,0 +1,161 @@
+:root {
+    --P: #F0E6E6;
+    --P1: #512729;
+    --P2: #FCF3EE;
+    --P3: #572B2C;
+    --P4: #5E2F2F;
+    --P5: #FFF9F6;
+    --S1: #C19A8B;
+    --S2: #E5D2D2;
+    --S3: #FFEFD7;
+}
+@font-face {
+  font-family: 'Beautique Display';
+  src: url('fonts/BeautiqueDisplay-Regular-BF63fd5fa8115bb.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    /* 1rem top/bottom, 5% left/right */
+    padding: 1rem 5% !important;
+    border-radius: 40px;
+    font-weight: bolder;
+}
+
+.logo-area {
+    background-color: var(--P2);
+}
+
+.primary-nav {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-left: auto;
+}
+
+.primary-nav a {
+    text-decoration: none;
+    color: var(--P4);
+    font-weight: 500;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.primary-nav a:hover,
+.primary-nav .active {
+    background-color: var(--S2);
+    color: var(--P1);
+}.contact-header {
+    text-align: center;
+    padding: 2rem 0;
+    color: var(--P1);
+}
+
+.form-section {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-group-custom {
+    background: var(--S2);
+    padding: 0.8rem 1rem;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.input-group-custom input,
+.input-group-custom select {
+    border: none;
+    background: transparent;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: var(--P1);
+}
+
+.submit-btn {
+    padding: 1rem;
+    background: var(--S1);
+    color: var(--P1);
+    border: none;
+    border-radius: 0 1rem 0 0; /* Note: I overwrote this inline on some buttons to be fully rounded */
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    background: var(--P3);
+    color: var(--S3);
+}
+*{
+      font-family: 'Beautique Display';
+}
+body {
+  background-color: var(--P5);
+  font-family: 'Beautique Display';
+  color: var(--P1);
+}
+
+h1{
+    color: var(--P1); 
+    font-family:'Beautique Display' ;
+    font-size: 58px;
+    animation: fadeIn 3s ease-in-out;;
+}
+h2 {
+   font-size: 26px;
+   margin-bottom: 12px;
+   color: var(--P1); 
+}
+.white_sec{
+    height: 990px ;
+    background-color: var(--P5); /**/
+}
+.p2_sec{
+    background-color: var(--P2);
+    padding: 10px;
+    color: var(--P1);
+}
+.premium-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--P5);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(81, 39, 41, 0.1); /* Uses your P1 color for shadow */
+}
+
+.premium-table th {
+    background-color: var(--P1);
+    color: var(--S1);
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.premium-table td {
+    padding: 15px;
+    border-bottom: 1px solid var(--S2);
+    color: var(--P1);
+    text-align: center;
+}
+
+.premium-table tr:hover {
+    background-color: var(--S2);
+    transition: 0.3s;
+}

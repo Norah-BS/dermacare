@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DermaCare – Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg" style="background-color: var(--P2);">
+  <div class="container-fluid">
+
+<div class="logo-area">
+  <a href="home.html">
+    <img src="images/Logo.png" alt="logo" class="logo">
+  </a>
+</div>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navMenu">
+  <ul class="primary-nav ms-auto">
+
+    <li><a href="home.html">Home</a></li>
+    <li><a href="Services.html">Services</a></li>
+    <li><a href="ourStory.html">Our Story</a></li>
+    <li><a href="Services.html#tips">Skin Care Tips</a></li>
+    <li><a href="home.html#reviews">Reviews</a></li>
+    <li><a href="skin-diagnosis.html">Skin Diagnosis Test</a></li>
+
+    <li class="nav-item dropdown">
+      <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">Account</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="signup.html">Sign up</a></li>
+        <li><a class="dropdown-item" href="Log in.html">Login</a></li>
+        <li><a class="dropdown-item" href="Profile.html">My Profile</a></li>
+      </ul>
+    </li>
+
+    <li><a href="contact.html" class="active">Contact Us</a></li>
+
+  </ul>
+    <button onclick="toggleTheme()" id="themeBtn" class="theme-toggle-btn">
+      <span id="themeIcon">☾</span>
+  </button>
+</div>
+
+  </div>
+</nav>
+
+
+<section class="contact-header">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      
+      <div class="col-lg-4 mx-auto">
+        <h1>Contact us</h1>
+        <p>For press related inquiries, please get in touch via <strong>DermaCare@gmail.com</strong></p>
+        <p><strong>Call us:</strong> +966 55000000</p>
+
+        <div class="social-icons mt-3">
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram.png" class="social-icon" alt="instagram"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" class="social-icon" alt="facebook"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.png" class="social-icon" alt="X"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="images/phone.png" class="social-icon" alt="phone"></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="form-section">
+  <div class="container form-layout">
+
+    <div class="pink-box"></div>
+
+    <div class="form-content">
+      <h3 class="form-title">
+        You may also fill out the form below and we will respond as quickly as possible.
+      </h3>
+
+      <form class="contact-form" action="#" method="POST">
+
+        <div class="input-group-custom">
+          <img src="images/user.png" class="input-icon">
+          <input type="text" placeholder="Full name" required>
+        </div>
+
+        <div class="input-group-custom">
+          <img src="images/envelope.png" class="input-icon">
+          <input type="email" placeholder="Email" required>
+        </div>
+
+        <div class="input-group-custom">
+          <img src="images/phone.png" class="input-icon">
+          <input type="tel" placeholder="Phone number" required>
+        </div>
+
+        <div class="input-group-custom">
+          <img src="images/pen-to-square.png" class="input-icon">
+          <textarea placeholder="Message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+      
+
+    </div>
+  </div>
+</section>
+
+<section class="faq-section">
+  <div class="container">
+    <h3 class="faq-title">Frequently asked questions</h3>
+
+    <div class="faq-item">
+      <button class="faq-question" type="button">
+        What is hydration therapy?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        Hydration therapy is a specialized skincare treatment designed to restore moisture, enhance elasticity, and leave your skin glowing.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" type="button">
+        Is hydration therapy suitable for all skin types?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        Yes, but the products and intensity are adjusted based on your skin type.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" type="button">
+        How long does the treatment take?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        Most sessions take 45–60 minutes.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-container">
+
+    <img src="images/hands.png" class="cta-hand">
+
+    <div class="cta-text">
+      <h2>Let’s Begin Your Skincare Journey</h2>
+      <p>Ready to achieve radiant, healthy skin? Let us help you get started today.</p>
+      <a href="Services.html" class="cta-btn">Book your consultation</a>
+    </div>
+
+    <img src="images/Face.png" class="cta-face">
+
+  </div>
+</section>
+
+<footer class="footer">
+
+  <div class="container footer-top">
+
+    <div class="footer-logo"><img src="images/logo2.png"></div>
+
+    <p class="footer-desc">
+      At DermaCare, we’re dedicated to helping you achieve radiant, healthy skin
+      through personalized skincare treatments and expert guidance.
+    </p>
+
+    <a href="Services.html" class="footer-btn">Schedule appointment</a>
+
+  </div>
+
+  <section class="footer-table">
+    <div class="container">
+      <table class="table table-borderless">
+        <thead>
+          <tr>
+            <th>Pages</th>
+            <th>Services</th>
+            <th>Social</th>
+            <th>Contact us</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Home</td>
+            <td>Custom facials</td>
+            <td><img src="images/instagram2.png"> <a href="https://www.instagram.com/?hl=en" target="_blank">Instagram</a></td>
+            <td><img src="images/phone2.png">+966 55000000</td>
+          </tr>
+          <tr>
+            <td>Services</td>
+            <td>Anti-aging treatments</td>
+            <td><img src="images/facebook2.png"> <a href="https://www.facebook.com/" target="_blank">Facebook</a></td>
+            <td><img src="images/Frame.png">DermaCare@example.com</td>
+          </tr>
+          <tr>
+            <td>My Skin</td>
+            <td>Acne solutions</td>
+            <td><img src="images/twitter-x2.png"> <a href="https://x.com/" target="_blank">X</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Our Story</td>
+            <td>Hydration therapy</td>
+            <td><img src="images/phone2.png"> <a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Skin Care Tips</td>
+            <td>Skin resurfacing</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Reviews</td>
+            <td>Specialty treatments</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Contact Us</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  
+  <div class="footer-bottom">
+    <p>Designed by Norah, Sara, 
+Daniah, Sitah</p>
+    <p>Terms & Conditions | Privacy Policy</p>
+  </div>
+
+</footer>
+<script>
+  document.querySelectorAll(".faq-question").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const answer = btn.nextElementSibling;
+      const icon = btn.querySelector(".faq-icon");
+
+      const isOpen = answer.style.display === "block";
+
+      document.querySelectorAll(".faq-answer").forEach(a => a.style.display = "none");
+      document.querySelectorAll(".faq-icon").forEach(i => i.textContent = "+");
+
+      answer.style.display = isOpen ? "none" : "block";
+      icon.textContent = isOpen ? "+" : "−";
+    });
+  });
+
+function toggleTheme() {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    document.documentElement.setAttribute('data-theme', isDark ? '' : 'dark');
+    document.getElementById('themeIcon').textContent = isDark ? '☾' : '☀';
+}
+</script>
+</body>
+</html>
